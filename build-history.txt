@@ -1,0 +1,40 @@
+  997* 2023-08-10 18:42:55  rm -rf /usr/local/go && tar -C /usr/local -xzf go1.21.0.linux-amd64.tar.gz
+  998  2023-08-10 18:42:41 tmux new -s buildbsc
+  999  2023-08-10 18:43:07 tmux a -t build
+ 1000  2023-08-10 18:43:11 tmux ls
+ 1001  2023-08-10 18:44:57 make geth
+ 1002  2023-08-10 18:45:30 export PATH=$PATH:/usr/local/go/bin
+ 1003  2023-08-10 18:45:37 make geth
+ 1004  2023-08-10 18:49:10 go1.20.7.linux-amd64.tar.gz
+ 1005  2023-08-10 18:49:20 wget https://go.dev/dl/go1.20.7.linux-amd64.tar.gz
+ 1006  2023-08-10 18:50:04 c
+ 1007  2023-08-10 18:50:27 ls
+ 1008  2023-08-10 18:50:56 make geth
+ 1009  2023-08-10 18:51:06 make clean
+ 1010  2023-08-10 18:51:09 make geth
+ 1011  2023-08-10 18:53:29 git checkout -b jose/fixpending
+ 1012  2023-08-10 19:35:54 git revert a969f3196157f078b13b9cdaaf880c1e511a13f5
+ 1013  2023-08-10 19:41:53 git log
+ 1014  2023-08-10 19:43:33 git revert 291cb8ab51bf93d9bcbf6b89bff7b604e85a4516
+ 1015  2023-08-10 19:43:51 make clean
+ 1016  2023-08-10 19:43:54 make geth
+ 1017  2023-09-25 21:17:34 history
+ 1018  2023-09-25 21:17:36 git show
+ 1019  2023-09-25 21:17:40 gitk log
+ 1020  2023-09-25 21:17:42 git log
+ 1021  2023-09-25 21:17:50 cat .git/config
+ 1022  2023-09-25 21:18:35 git remote add
+ 1023  2023-09-25 21:18:41 git remote add github git@github.com:joseddg92/bsc.git
+ 1024  2023-09-25 21:18:46 git push github HEAD
+ 1025  2023-09-25 21:19:49 git tag
+ 1026  2023-09-25 21:20:19 git checkout v1.2.12
+ 1027  2023-09-25 21:20:23 git fetch origin
+ 1028  2023-09-25 21:20:28 git checkout v1.2.12
+ 1029  2023-09-25 21:20:34 git checkout -b jdepedro/v1.2.12
+ 1030  2023-09-25 21:21:05 git cherry-pick jose/fixpending
+ 1031  2023-09-25 21:21:09 history
+ 1032  2023-09-25 21:21:21 make geth
+ 1033  2023-09-25 21:22:21 pwd
+ 1034  2023-09-25 21:24:37 ls -l
+ 1035  2023-09-25 21:24:42 history
+
